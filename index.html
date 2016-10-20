@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Stress Test!</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Stress test!</h1>
+      </div>
+      <form id="stress-test">
+        <div class="form-group">
+          <p>
+            How stressed are you? mark the options in the checkboxes below and find out!
+          </p>
+          <input type="checkbox" name="genral_stressors" value="baby">Do you care for an infant?<br>
+          <input type="checkbox" name="genral_stressors" value="exercise">Do you atleast walk for 30min a day?<br>
+          <input type="checkbox" name="genral_stressors" value="job">Do you enjoy your job?<br>
+          <input type="checkbox" name="genral_stressors" value="sleep">Do you consistantly get less than 7 hours of sleep a night?<br>
+          <input type="checkbox" name="genral_stressors" value="traffic">Do you experience heavy traffic driving daily?<br>
+        </div>
+        <div class="form-group">
+          <p>Do you experience any of these symptoms?</p>
+          <input type="checkbox" name="stress_symptoms" value="insomnia">Do you have trouble falling asleep at night?<br>
+          <input type="checkbox" name="stress_symptoms" value="blood-pressure">id your resting blood pressure over 120/80?<br>
+          <input type="checkbox" name="stress_symptoms" value="anger">Do you fly off the handle easly?<br>
+          <input type="checkbox" name="stress_symptoms" value="anxiety">Do you find yourself anxious often?<br>
+          <input type="checkbox" name="stress_symptoms" value="breath">Do you have shortness of breath when not under physical stress?<br>
+        </div>
+        <button type="submit">submit</button>
+      </form>
+
+      <div class="results">
+      </div>
+    </div>
+  </body>
+</html>
